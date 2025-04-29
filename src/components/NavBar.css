@@ -1,0 +1,76 @@
+/* NavBar.css */
+.navbar {
+    background: linear-gradient(to right, #001d42, #2b2222);
+    color: white;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 2px 10px rgba(78, 76, 76, 0.05);
+  }
+  
+  .div-logo-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #8df5fd;
+    box-shadow: 0 0 10px #648bf5;    
+    background-color: transparent;
+    transition: transform 0.3s ease, color 0.3s ease;
+    animation: slideInLeft 1.5s ease-out;
+
+  }
+ 
+  .logo-img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    cursor: pointer;
+    filter: brightness(100) saturate(100%) invert(0%) sepia(92%) saturate(527%) hue-rotate(200deg) brightness(100%) contrast(150%);
+    
+}
+
+  .navbar-right {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navbar-right a {
+    color: white;
+    font-size: 1.8rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+    animation: slideInRight 1.5s ease-out;
+  }
+  
+  .navbar-right  a:hover {
+    transform: scale(1.2);
+    color: #fd8da9;
+  }
+
+  
+  @keyframes slideInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-60px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+
+  @keyframes slideInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(60px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+

@@ -1,0 +1,43 @@
+.footer-container {
+    background:rgb(0, 27, 49);
+    padding: 30px 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .footer-name {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+   color: #00c6ff;
+  }
+  
+  .footer-contact p {
+    margin: 5px 0;
+    color: #cccccc;
+  }
+  
+  .footer-icons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 1.8rem;
+  }
+  
+  .footer-icons a {
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .footer-icons a:hover {
+    transform: scale(1.2);
+    color: #00c6ff;
+  }
+  
+  .footer-bottom {
+    margin-top: 10px;
+    padding-bottom: 20px;
+    font-size: 0.9rem;
+    color: #888888;
+  }
+  

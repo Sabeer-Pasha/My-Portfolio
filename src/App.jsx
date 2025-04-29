@@ -1,6 +1,6 @@
 // App.jsx
 import React, { useEffect } from "react";
-import NavBar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
 import AboutMe from "./components/AboutMe";
 import Technologies from "./components/Technologies";

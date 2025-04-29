@@ -12,7 +12,7 @@ export default function AboutMe() {
             <p className="about-summary"
             data-aos="zoom-in-up"
             data-aos-duration="2500">
-                I am a passionate Front-End Developer with a background in Computer Science, currently pursuing my BCA under Bangalore Central University. I bring 4 years of experience as a Lead Customer Service Manager at C-Square Info Solutions, Bangalore, and have a solid understanding of front-end development using HTML, CSS, JavaScript, and ReactJS. My goal is to craft intuitive, user-friendly interfaces with elegant and efficient code.
+                I am a passionate Front-End Developer with a background in Computer Science, BCA under Bangalore city University. I bring 4 years of experience as a Key Account Manager at C-Square Info Solutions, Bangalore, and have a solid understanding of front-end development using HTML, CSS, JavaScript, and ReactJS. My goal is to craft intuitive, user-friendly interfaces with elegant and efficient code.
             </p>
             <p className="about-details"
              data-aos="zoom-in-up"
